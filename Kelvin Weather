@@ -1,0 +1,13 @@
+// temperature in kelvin
+const kelvin = 293;
+
+// temperature in celsius
+let celsius = kelvin - 273;
+
+// temperature in fahrenheit
+let fahrenheit = celsius * (9/5) + 32;
+
+// removing the decimals by bringing it to the first integer minor than the value.
+fahrenheit = Math.floor(fahrenheit);
+
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
